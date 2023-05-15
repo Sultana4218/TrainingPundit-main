@@ -593,7 +593,7 @@ nav form button.btn:hover {
 }
 /* ===== featured end ===== */
 
-/* ===== courses start ===== */
+/* ===== courses-part start ===== */
 
 .courses{
   background-color: #fffbee;
@@ -615,12 +615,16 @@ nav form button.btn:hover {
   padding: 8px 10px;
 }
 
-
+/* ===== courses-part end ===== */
 /* ===== courses page end ===== */
 
-                /* =================== */
+/* ===== courses details-part start ===== */
 
-
+/* ===== hero-part start ===== */
+#hero_part{
+  background-color: var(--primary-bgcolor);
+}
+/* ===== hero-part end ===== */
 /* ===== courses-head start ===== */
 
 .courses-head{
