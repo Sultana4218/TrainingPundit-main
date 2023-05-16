@@ -381,6 +381,8 @@ nav form button.btn:hover {
 .news-box {
   margin-top: 35px;
   transition: 0.4s;
+  border-radius: 70px 0;
+  overflow: hidden;
 }
 .news-box:hover {
   transform: scale(1.02);
@@ -533,25 +535,38 @@ nav form button.btn:hover {
   margin-bottom: 10px;
 }
 /* ===== office-part_part end ===== */
+/* *********************************************************** */
 
 /* ===== courses page start ===== */
 
 
 /* ===== featured start ===== */
+
 .featured{
   background-image:url(../image/instructor.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--primary-color);
- 
+  text-align: center;
+}
+
+.featured img{
+  border-radius: 100px 100px;
+  overflow: hidden;
+}
+.featured img:hover {
+  transform: scale(1.02);
+  box-shadow: black;
 }
 
 .featured .single-course{
   border: 1px solid var(--primary-bgcolor);
+  padding: 20px;
   margin-top: 35px;
   min-height: 362px;
   transition: 0.4s;
-}
+  }
+
 .featured .single-course:hover {
   box-shadow: rgba(243, 102, 7, 0.35) 0px 5px 15px;
 }
@@ -564,11 +579,15 @@ nav form button.btn:hover {
   font-size: 20px;
   margin-bottom: 5px;
 }
-.featured .course-details p {
+.featured .course-details{
   text-transform: capitalize;
   font-weight: 600;
   color: #000000;
   margin-bottom: 5px;
+}
+
+.featured .course-details i{
+  color: #ffc700;
 }
 .featured .offer {
   text-decoration: line-through;
@@ -580,9 +599,9 @@ nav form button.btn:hover {
   border: 1px solid var(--primary-bgcolor);
   background-color: var(--primary-bgcolor);
   color: #ffffff;
-  padding: 3px 5px;
+  padding: 5px 5px;
   text-transform: capitalize;
-  border-radius: 20px;
+  border-radius: 10px;
 } */
 .featured .course-btn:hover {
   background-color: var(--secondary-bgcolor);
@@ -616,7 +635,14 @@ nav form button.btn:hover {
 }
 
 /* ===== courses-part end ===== */
+/* ===== popular-topic start ===== */
+.popular-topic .swiper-slide{
+  height: 300px;
+}
+/* ===== popular-topic start ===== */
+
 /* ===== courses page end ===== */
+/* ***************************************************** */
 
 /* ===== courses details-part start ===== */
 
@@ -700,6 +726,26 @@ nav form button.btn:hover {
   color: #c59b08;
 }
 /* ===== courses-review-part end =====*/
+
+.related-topic .goal-item {
+  padding: 30px 40px;
+  border: 1px solid var(--primary-bgcolor);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+  min-height: 205px;
+  transition: 0.4s;
+}
+.related-topic .goal-item .goal-item-img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+.related-topic .goal-item:hover {
+  background-color: var(--primary-bgcolor);
+  color: var(--primary-color);
+}
 
 /* ===== courses details page end ===== */
 /* ===== _part start ===== */
