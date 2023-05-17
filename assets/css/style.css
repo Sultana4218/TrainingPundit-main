@@ -640,7 +640,41 @@ nav form button.btn:hover {
   height: 300px;
 }
 /* ===== popular-topic start ===== */
+/* ===== carosel-topic start ===== */
+.owl-next,
+.owl-prev {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--primary-bgcolor) !important;
+  position: absolute;
+  bottom: 45%;
+}
+.owl-prev {
+  left: -50px;
+}
+.owl-next {
+  right: -50px;
+}
+.owl-prev span,
+.owl-next span {
+  font-size: 40px;
+  color: var(--primary-bgcolor);
+  margin-top: -3px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  border-radius: 50% !important;
+}
 
+
+/* ===== carosel-topic end ===== */
 /* ===== courses page end ===== */
 /* ***************************************************** */
 
