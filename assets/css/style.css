@@ -568,7 +568,8 @@ nav form button.btn:hover {
   }
 
 .featured .single-course:hover {
-  box-shadow: rgba(243, 102, 7, 0.35) 0px 5px 15px;
+  box-shadow: rgba(230, 28, 14, 0.35) 0px 5px 15px;
+  background-color: rgb(222, 235, 247);
 }
 .featured .course-details {
   padding: 10px 12px;
